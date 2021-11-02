@@ -1,10 +1,14 @@
+import OeaConsults from "./components/oeaConsults";
+import React from "react";
+import Logo from "./components/Logo";
 
-function App() {
-  return (
-    <div className="Background">
-      Welcome to React
-    </div>
-  );
+export default class App extends React.Component{
+  render(){
+    return(
+      <div className="background">
+        <Logo />
+        <OeaConsults />
+      </div>
+    )
+  }
 }
-
-export default App;
